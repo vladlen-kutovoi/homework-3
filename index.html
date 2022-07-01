@@ -20,12 +20,17 @@
     .browser-logo-list li {
       display: inline;
     }
+
+    .cv {
+      width: 80%;
+      height: 95vh;
+    }
   </style>
 </head>
 
 <body>
   <main>
-    <section class="intro">
+    <section id="intro">
       <div class="container">
         <h1>HTML5 Семантичні елементи</h1>
 
@@ -36,7 +41,7 @@
       </div>
     </section>
 
-    <section class="browser-support">
+    <section id="browser-support">
       <div class="container">
         <h2>Підтримка браузерів</h2>
 
@@ -65,22 +70,22 @@
       </div>
     </section>
 
-    <section class="new-elements">
+    <section id="new-elements">
       <div class="container">
         <h2>Нові семантичні елементи в HTML5</h2>
 
         <p>HTML5 пропонує нові семантичні елементи для визначення різних частин веб-сторінки:</p>
 
         <ul>
-          <li>&lt;section&gt;</li>
-          <li>&lt;article&gt;</li>
-          <li>&lt;header&gt;</li>
-          <li>&lt;footer&gt;</li>
+          <li><a href="#about-section">&lt;section&gt;</a></li>
+          <li><a href="#about-article">&lt;article&gt;</a></li>
+          <li><a href="#about-header">&lt;header&gt;</a></li>
+          <li><a href="#about-footer">&lt;footer&gt;</a></li>
         </ul>
       </div>
     </section>
 
-    <section class="about-section">
+    <section id="about-section">
       <div class="container">
         <h3>HTML5 &lt;section&gt; елемент</h3>
 
@@ -94,7 +99,7 @@
       </div>
     </section>
 
-    <section class="about-article">
+    <section id="about-article">
       <div class="container">
         <h3>HTML5 &lt;article&gt; елемент</h3>
 
@@ -113,7 +118,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="about-header">
       <div class="container">
         <h3>HTML5 &lt;header&gt; елемент</h3>
 
@@ -126,7 +131,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="about-footer">
       <div class="container">
         <h3>HTML5 &lt;footer&gt; елемент</h3>
 
@@ -135,7 +140,24 @@
           використання, контактні дані і т.д.</p>
         <p>В одному документі може бути кілька елементів &lt;footer&gt;.</p>
 
-        <img src="img/example_footer.jpg" alt="Example of usage of <footer> tag">
+        <a href="https://www.blogger.com/blog/page/edit/2590532390801722394/850003172824707311#" target="_blank">
+          <img src="img/example_footer.jpg" alt="Example of usage of <footer> tag">
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <iframe src="https://vladlen-kutovoi.github.io/homework-1" frameborder="0" class="cv"></iframe>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dEBVe8Ij7JU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
       </div>
     </section>
   </main>
